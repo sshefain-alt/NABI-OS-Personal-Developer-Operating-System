@@ -1,0 +1,35 @@
+{
+  "name": "nabi-os",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NABI OS — the interactive personal developer operating system of Sadatun Nabi.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "framer-motion": "12.43.0",
+    "geist": "1.9.2",
+    "lucide-react": "0.577.0",
+    "next": "15.5.29",
+    "react": "19.2.9",
+    "react-dom": "19.2.9"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.7",
+    "@tailwindcss/postcss": "4.1.18",
+    "@types/node": "^24.0.0",
+    "@types/react": "19.3.3",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "15.5.29",
+    "prettier": "3.10.1",
+    "tailwindcss": "4.1.18",
+    "typescript": "5.9.3"
+  }
+}
